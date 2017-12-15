@@ -9,9 +9,6 @@ module.exports = function (config) {
     files: [
       "https://code.jquery.com/jquery-latest.min.js",
       "https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
-      "jquery.in-place-editor.js",
-      "jquery.dropdown-select.js",
-      "jquery.swivel.js",
       "slider.js",
       "test/**/*.js",
       "test/**/*.html"
