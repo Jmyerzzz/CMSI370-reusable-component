@@ -32,4 +32,13 @@ $(() => {
             logEvent("Swivel: Swiveled from " + oldAngle + " to " + newAngle);
         }
     });
+
+    $(".handle").slider({
+        change: function (percentage) {
+            logEvent("percentage: " + percentage + "%");
+            let div1 = $('#rect');
+            let div2 = $('#rect1');
+            div2.text(div1.data('percent'));
+        }
+    });
 });
