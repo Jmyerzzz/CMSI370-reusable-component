@@ -12,6 +12,7 @@ module.exports = function (config) {
       "jquery.in-place-editor.js",
       "jquery.dropdown-select.js",
       "jquery.swivel.js",
+      "slider.js",
       "test/**/*.js",
       "test/**/*.html"
     ],
