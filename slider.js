@@ -1,3 +1,6 @@
+// My intention was to use the slider as a way to interact with preset cities for my weather API frontend.
+// I was unable to get the slider to function. The CSS appeared on the UI but I couldn't move the slider.
+
 (($) => {
     $.fn.slider = function (options) {
         let $this = this;
